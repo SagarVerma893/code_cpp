@@ -28,3 +28,4 @@ int main()
     cout << "Element at position (" << r << ", " << c << ") is: " << solve_pascal(r - 1, c - 1);
     return 0;
 }
+// Time complexity O(2^r)
